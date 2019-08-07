@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.victorwang.campuschase.MyTeamActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tx_myteamt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Team"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="117dp"
+            tools:layout_editor_absoluteY="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp" />
+
+        <TextView
+            android:id="@+id/tx_teamm"
+            android:layout_width="260dp"
+            android:layout_height="394dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="45dp"
+            tools:layout_editor_absoluteX="62dp"
+            tools:layout_editor_absoluteY="120dp" />
+    </RelativeLayout>
+</LinearLayout>

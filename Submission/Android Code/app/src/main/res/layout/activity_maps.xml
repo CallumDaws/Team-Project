@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btn_clue" />
+
+        <Button
+            android:id="@+id/btn_ms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@android:drawable/btn_star_big_on"
+            android:text="Scores"
+            android:textAllCaps="false"
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_mc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/btn_mhint"
+            android:layout_toStartOf="@+id/btn_mhint"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@android:drawable/presence_video_online"
+            android:text="Scan"
+            android:textAllCaps="false"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_clue"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@android:drawable/ic_input_add"
+            android:text="Clue"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_Menu"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/transparent"
+            android:drawableEnd="@android:drawable/ic_menu_more"
+            android:text="Menu"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/questionView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="placeholder question"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+</LinearLayout>

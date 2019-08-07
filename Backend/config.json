@@ -1,0 +1,5 @@
+{ 
+	"serverip":"http://178.62.97.13",
+	"questions":"http://178.62.97.13/treasurehunt/static/json/questions.json",
+	"profilepictures":"http://178.62.97.13/treasurehunt/static/profilepictures"
+}

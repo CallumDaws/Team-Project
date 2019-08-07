@@ -1,0 +1,6 @@
+{
+    "questions ":[
+        {"question":"this is question 1", "answer":"test", "clue1":"this is clue 1", "clue2":"this is clue 2", "clue3":"this is clue 3"},
+        {"question":"this is question 2", "answer":"test2", "clue1":"this is clue 1", "clue2":"this is clue 2", "clue3":"this is clue 3"}
+        ]
+}

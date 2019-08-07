@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title>Campus Chase Statistics</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+		<script>
+		function getNumberOfTeams() {
+			$.get( "http://178.62.97.13/treasurehunt/stats/getnumberofteams", function( data ) {
+				$("#numberofteams").html(data.count.toString());
+			});
+		}
+
+		function getNumberOfPlayers() {
+			$.get( "http://178.62.97.13/treasurehunt/stats/getnumberofplayers", function( data ) {
+  				$("#numberofplayers").html(data.count.toString());
+			});
+		}
+
+		function getGamesPlayed() {
+			$.get( "http://178.62.97.13/treasurehunt/stats/getgamesplayed", function( data ) {
+  				$("#gamesplayed").html(data.gamesplayed.toString());
+			});
+		}
+
+		function updateStats() {
+			getNumberOfTeams();	
+			getNumberOfPlayers();
+			getGamesPlayed();
+		}
+
+		updateStats();
+		setInterval(function() {
+  			updateStats();
+		}, 5000);
+		</script>
+	</head>
+	<body>
+<table style="width:200px; height: 200px">
+  <tr>
+    <td>Games Played</td>
+    <td id="gamesplayed">0</td> 
+  </tr>
+  <tr>
+    <td>Number Of Players</td>
+    <td id="numberofplayers" >2</td>  
+    </tr>
+  <tr>
+    <td>Number Of Teams</td>
+    <td id="numberofteams">3</td> 
+  </tr>
+</table>
+	</body>
+</html>

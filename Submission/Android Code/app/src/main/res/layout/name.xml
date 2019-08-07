@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/nt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:fontFamily="sans-serif"
+            android:text="Set Name"
+            android:textAllCaps="false"
+            android:textIsSelectable="false"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@android:drawable/ic_menu_help"
+            android:minHeight="5dp"
+            android:minWidth="5dp" />
+
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:ems="10"
+            android:hint="Enter name here"
+            android:inputType="textPersonName"
+            android:textColorLink="@android:color/background_dark"
+            android:textSize="24sp"
+            android:layout_below="@+id/nt1"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableTop="@android:drawable/presence_online"
+            android:text="GO"
+
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_above="@+id/btn1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="11dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/et1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/btn2"
+            android:layout_alignLeft="@+id/btn2"
+            android:layout_alignRight="@+id/btn2"
+            android:layout_alignStart="@+id/btn2"
+            android:layout_below="@+id/imageView2"
+            android:text="Choose a picture" />
+
+    </RelativeLayout>
+</LinearLayout>

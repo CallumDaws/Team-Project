@@ -1,0 +1,17 @@
+private View.OnClickListener  ms = new View.OnClickListener() {
+        public void onClick(View v) {
+            Intent sendIntent = new Intent();
+            sendIntent.setAction(Intent.ACTION_SEND);
+            sendIntent.putExtra(Intent.EXTRA_TEXT, "Change to share messages eg i win the game!");
+            sendIntent.setType("text/plain");
+            startActivity(Intent.createChooser(sendIntent, "Share to friend"));
+        }
+    };
+    
+    
+    
+    //Code for share button on click event, this code is not for any target 3-rd party apps, it use Android system share function to 
+    share plain text, can also change to picture
+
+
+//This function need test on phone, alreday test code independent

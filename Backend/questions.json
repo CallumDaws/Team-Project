@@ -1,0 +1,8 @@
+{
+    "questions":[
+         {"question":"Simon Best and Andy Fenby would be inducted here.", "answer":"Sports Centre", "clue1":"Gold and Silver memberships available here.", "clue2":"You can sign up to societies here.", "clue3":"Sports Centre"},
+         {"question":"Newcastle addition to the University Campus (as of 2017).", "answer":"Urban Sciences Building", "clue1":"Urban planning, engineering and computing science will all be moving here.", "clue2":"Behind the business school.", "clue3":"Urban Science Building"},
+         {"question":"Stretch your mind instead of your body", "answer":"test2", "clue1":"A frame or shelf that can be used to hold things", "clue2":"Only accessable to Computer Science students.", "clue3":"The Rack"},
+         {"question":"Undone Its Nut", "answer":"test2", "clue1":"Can see live bands, get food or buy Newcastle university merchandise here", "clue2":"This building holds a record for the longest bar.", "clue3":"Student Union"}
+        ]
+}

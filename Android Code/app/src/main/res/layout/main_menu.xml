@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/tx_mmt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="37dp"
+            android:text="Menu"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/btn_mmm"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/btn_mmmt"
+            android:layout_alignStart="@+id/btn_mmmt"
+            android:layout_below="@+id/tx_mmt"
+            android:layout_marginTop="34dp"
+            android:background="@drawable/btn_team"
+            android:text="Map"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_mmmt"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="27dp"
+            android:background="@drawable/btn_team"
+            android:text="My team"
+            android:textAllCaps="false"
+            android:layout_below="@+id/btn_mmm"
+            android:layout_alignLeft="@+id/btn_mmhc"
+            android:layout_alignStart="@+id/btn_mmhc" />
+
+        <Button
+            android:id="@+id/btn_mmhc"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btn_team"
+            android:text="Hint and Clue"
+            android:textAllCaps="false"
+            android:layout_marginTop="29dp"
+            android:layout_below="@+id/btn_mmmt"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/btn_mmh"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/btn_mmhc"
+            android:layout_alignStart="@+id/btn_mmhc"
+            android:layout_below="@+id/btn_mmhc"
+            android:layout_marginTop="27dp"
+            android:background="@drawable/btn_team"
+            android:text="Help"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_settings"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/button_mma"
+            android:layout_alignStart="@+id/button_mma"
+            android:layout_below="@+id/button_mma"
+            android:layout_marginTop="19dp"
+            android:background="@drawable/btn_team"
+            android:text="Settings"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/button_mma"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/btn_mmh"
+            android:layout_alignStart="@+id/btn_mmh"
+            android:layout_below="@+id/btn_mmh"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_team"
+            android:text="About"
+            android:textAllCaps="false" />
+    </RelativeLayout>
+</LinearLayout>

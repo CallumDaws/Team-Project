@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="83dp">
+
+        <TextView
+            android:id="@+id/tx_rchc"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            tools:layout_editor_absoluteX="72dp"
+            tools:layout_editor_absoluteY="505dp"
+            android:layout_marginBottom="54dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/tx_hcd2"
+            android:layout_alignStart="@+id/tx_hcd2" />
+
+        <TextView
+            android:id="@+id/tx_hintt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current Clue"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="55dp"
+            android:layout_above="@+id/tx_rchc"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_marginBottom="19dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tx_hcd2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:text="Clue History"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="55dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="Hint and Clue"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="55dp" />
+
+        <TextView
+            android:id="@+id/tx_hcd2"
+            android:layout_width="240dp"
+            android:layout_height="164dp"
+            tools:layout_editor_absoluteX="72dp"
+            tools:layout_editor_absoluteY="316dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>
